@@ -1,9 +1,9 @@
 # Parcial Segundo Corte Desarrollo Web 🚀
 
 
-Nombre completo estudiante :
+Nombre completo estudiante : Carlos Farouk Abdalá Rincón
 
-Codigo :
+Codigo : 0000242237
 
 **Descripción del Problema:**
 
