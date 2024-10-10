@@ -1,13 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import BreakfastList from "./pages/BreakfastList";
+import BreakfastDetails from "./pages/BreakfastDetails";
 import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BreakfastProvider } from "./context/breakfastCtx";
+import { FilterProvider } from "./context/filterCtx";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <BreakfastList />,
+  },
+  {
+    path: "/detail/:idBreakfast",
+    element: <BreakfastDetails/>,
+  }
+]);
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BreakfastProvider>
+      <FilterProvider>
+        <RouterProvider router={router}/>
+      </FilterProvider>
+    </BreakfastProvider>
   </React.StrictMode>
 );
 

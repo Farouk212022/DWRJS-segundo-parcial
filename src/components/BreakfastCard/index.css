@@ -1,0 +1,55 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card-edge {
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  border: 10px solid black;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  transition: 0.2s ease;
+}
+
+#card-background {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+#meal-image {
+  border-radius: 20px;
+  margin: 10px 10px 0px 10px;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#tittle-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: inline-flex;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin: 0px 10px;
+}
+
+#card-edge:hover{
+  transform: scale(1.05);
+  border: 10px solid #85898f;
+  background-color: #85898f;
+  cursor: pointer;
+}

@@ -1,12 +1,7 @@
+import { useEffect, useState } from "react";
+import Pokedex from "pokedex-promise-v2";
 import "./App.css";
-import Home from "./pages/home";
-
 function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
 }
 
 export default App;

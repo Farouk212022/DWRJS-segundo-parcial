@@ -1,0 +1,19 @@
+.backButton {
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 300px;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  transition: 0.2s ease
+}
+
+.backButton:hover {
+  transform: scale(1.05);
+  background-color: #85898f;
+  border: none;
+}

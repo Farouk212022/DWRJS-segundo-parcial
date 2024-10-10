@@ -1,0 +1,42 @@
+#body-recipe {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#tittle {
+  width: 100%;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+
+#recipe {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#recipe-image {
+  border: 10px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  height: 400px;
+  width: 25%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#recipe-description {
+    padding: 10px;
+  flex-direction: column;
+  width: 50%;
+  font-family: sans-serif;
+  margin: 0px 10px;
+}
